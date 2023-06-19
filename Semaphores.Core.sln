@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semaphores.Starvation", "Semaphores.Core\Semaphores.Starvation.csproj", "{29B1F4F2-DC03-4E9C-97DB-A0DDB924C458}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semaphores.Starvation", "Semaphores.Starvation\Semaphores.Starvation.csproj", "{29B1F4F2-DC03-4E9C-97DB-A0DDB924C458}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaderWriter.TurnStile", "ReaderWriter.TurnStile\ReaderWriter.TurnStile.csproj", "{68029C96-AD9B-461C-9BBC-20670EC83E52}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semaphores.TurnStile", "Semaphores.Turnstile\Semaphores.TurnStile.csproj", "{68029C96-AD9B-461C-9BBC-20670EC83E52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
