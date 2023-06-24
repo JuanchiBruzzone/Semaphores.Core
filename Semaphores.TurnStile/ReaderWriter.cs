@@ -13,6 +13,15 @@ public class ReaderWriter
     static async Task Main()
     {
 
+        while (true)
+        {
+            Console.WriteLine("Presione ENTER para comenzar. ");
+            if (Console.ReadKey().Key == ConsoleKey.Enter)
+            {
+                break;
+            }
+        }
+
         Console.WriteLine("Lector - Escritor con efecto torniquete. ");
         Console.WriteLine();
         Console.WriteLine("Presiona Enter para habilitar el token de cancelacion y salir del programa. ");
